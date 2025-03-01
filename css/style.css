@@ -1,3 +1,33 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color: #F2F2F2;
+  padding: 15px;
+  font-family: "Inter", serif;
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(120, 120, 120, 0.25);
+  background: rgb(249, 249, 249);
+}
+.header{
+  color: #F2F2F2;
+  color: rgb(242, 242, 242);
+  padding: 40px 50px 158.5px;
+  border-radius: 90px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: url('../css/img/header-bg.png') no-repeat center /cover;
+} 
+.hello{
+  font-size: 20px;
+ font-weight: 400;
+ line-height: 25px;
+}
+.hello-text{
+  font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+}
