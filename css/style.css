@@ -73,30 +73,18 @@ margin-bottom: 20px;
 padding: 20px;
 }
 .buttons{
-  justify-content: space-between;
-  max-width: 280px;
+  display: flex;  
+  justify-content: space-around;
+  max-width: 300px;
   margin: auto;
   gap: 10px;
-  display: flex;  
   margin-bottom: 10px;
   text-decoration: none;
   }
 .button{
  background-color: rgb(255, 255, 255);
- height:50px;
+ height: 40px;
   flex-shrink: 1;
   width: 100%;
   margin: auto;
-}
-.button-yt{
-height: 33px;
-margin-top: 2px;
-}
-.button-tg{
-  height: 40px;
-  margin-bottom: 2px;
-}
-.button-vk{
-  height: 40px;
-  margin-top: 1px;
 }
